@@ -53,6 +53,7 @@ in
       unzip
 			vault
 			wget
+			wl-clipboard
       zip
       yarn
       zoxide
