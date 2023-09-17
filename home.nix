@@ -39,7 +39,6 @@ in
 			lsd
       mercurial
       neovim
-      openssh
       openssl
 			parallel
       podman-compose
