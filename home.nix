@@ -3,7 +3,8 @@
 let 
 
 upkgs = with unstable; [
-      # Runtimes
+		 uiua
+		 # Runtimes
       bun
 		];
 in
