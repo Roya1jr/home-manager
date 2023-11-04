@@ -20,7 +20,8 @@ upkgs = with unstable; [
     factor-lang
     
     ##LSP
-    nixpkgs-fmt
+   nil
+     nixpkgs-fmt
     vscode-langservers-extracted
     typescript
     nodePackages.typescript-language-server
@@ -107,11 +108,14 @@ in
       
 			perl
 
-      ## python
+     
+        ## python
       python311
       python311Packages.pip
+      python311Packages.ruff-lsp
+      python311Packages.python-lsp-server
       ## python
-
+      
       racket
       rakudo
       rustup
