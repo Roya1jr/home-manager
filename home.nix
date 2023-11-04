@@ -2,7 +2,7 @@
 
 let
 
-                upkgs = with unstable; [
+  upkgs = with unstable; [
     tailwindcss
     helix
     air
@@ -131,6 +131,7 @@ in
       gfortran
       git
       lldb
+      tk
       # Other
     ] ++ upkgs;
 
