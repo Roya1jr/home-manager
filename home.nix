@@ -1,27 +1,27 @@
-{ config, pkgs,unstable, ... }:
+{ config, pkgs, unstable, ... }:
 
-let 
+let
 
-upkgs = with unstable; [
-		tailwindcss
+                upkgs = with unstable; [
+    tailwindcss
     helix
     air
     ollama
 
     #Runtimes
     bun
-			## golang
-			go_1_21
-			gopls
-			air
-      ## golang
-		uiua
+    ## golang
+    go_1_21
+    gopls
+    air
+    ## golang
+    uiua
     unison-ucm
     factor-lang
-    
+
     ##LSP
-   nil
-     nixpkgs-fmt
+    nil
+    nixpkgs-fmt
     vscode-langservers-extracted
     typescript
     nodePackages.typescript-language-server
@@ -29,7 +29,7 @@ upkgs = with unstable; [
     marksman
     yaml-language-server
     taplo
-		];
+  ];
 in
 
 {
@@ -40,18 +40,18 @@ in
     stateVersion = "23.05";
     username = "roya1jr";
 
-		
-		packages = with pkgs; [
+
+    packages = with pkgs; [
 
       # CLI Tools
-			awscli2
+      awscli2
       awsebcli
       bat
       bash
-			butane
+      butane
       cmake
       cfssl
-			coreutils-full
+      coreutils-full
       darcs
       fd
       fish
@@ -60,62 +60,62 @@ in
       gzip
       htop
       jq
-			lsd
+      lsd
       mercurial
       neovim
       openssl
-			parallel
+      parallel
       podman-compose
       ripgrep
       rsync
       sshs
       starship
       tealdeer
-			terraform
-			traceroute
+      terraform
+      traceroute
       tree-sitter
       unzip
-			vault
-			wget
-			wl-clipboard
+      vault
+      wget
+      wl-clipboard
       zip
       yarn
       zoxide
 
       # Programming languages
       cbqn-replxx
-			io
-			ghc
+      io
+      ghc
       gforth
-      
-			
-			## janet
+
+
+      ## janet
       janet
-			jpm
+      jpm
       ## janet
 
       ## lua
       lua
       luarocks
       ## lua
-			
+
       mercury
-      
-			## Ocaml
+
+      ## Ocaml
       ocaml
       opam
       ##
-      
-			perl
 
-     
-        ## python
+      perl
+
+
+      ## python
       python311
       python311Packages.pip
       python311Packages.ruff-lsp
       python311Packages.python-lsp-server
       ## python
-      
+
       racket
       rakudo
       rustup
@@ -127,7 +127,7 @@ in
 
 
       # Build Tools
-			libclang
+      libclang
       gfortran
       git
       lldb
@@ -145,7 +145,7 @@ in
   };
 
   home.sessionVariables = {
-     EDITOR = "hx";
+    EDITOR = "hx";
   };
 
   # Let Home Manager install and manage itself.
