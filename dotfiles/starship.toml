@@ -127,7 +127,7 @@ truncation_symbol = ""
 format = "via [󰎙 $version](bold green) "
 
 [package]
-format = "via [ $version](208 bold) "
+format = "shit [󰏗 $version](208 bold) "
 
 [python]
 symbol = " "

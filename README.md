@@ -20,5 +20,5 @@
 
 ## Updates
 - To update packages first run `nix flake update` then `home-manager switch` to update to the lates packages
-- Clean up after packager run `sudo nix-collect-garbage -d` you can see prior generations using `nix-env --list-generations
+- Clean up after packager run `nix-store --gc` you can see prior generations using `nix-env --list-generations
 `
