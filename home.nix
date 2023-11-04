@@ -119,7 +119,7 @@ in
 
       # Runtimes
       nodejs
-      wastime
+      wasmtime
 
 
       # Build Tools
