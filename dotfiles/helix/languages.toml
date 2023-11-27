@@ -18,7 +18,7 @@ args = ["lsp"]
 [[grammar]]
 name = "uiua"
 source.git = "https://github.com/shnarazk/tree-sitter-uiua"
-source.rev = "19ddefe799c3f926407470c62bc791434dfff8f5"
+source.rev = "9260f11be5900beda4ee6d1a24ab8ddfaf5a19b2"
 
 [[language]]
 name = "bqn"
