@@ -1,4 +1,4 @@
-{ config, pkgs, unstable, ... }:
+{ pkgs, unstable, ... }:
 
 let
 
@@ -109,11 +109,12 @@ in
 
 
       ## python
-      python311
-      python311Packages.pip
-      python311Packages.ruff-lsp
-      python311Packages.python-lsp-server
-      python311Packages.tkinter
+      python310
+      micromamba
+      python310Packages.pip
+      ruff
+      python310Packages.python-lsp-server
+      python310Packages.tkinter
       ## python
 
       racket

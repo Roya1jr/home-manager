@@ -80,5 +80,5 @@ language-servers = ["pylsp", "ruff"]
 command = "pylsp"
 
 [language-server.ruff]
-command = "ruff-lsp"
+command = "ruff"
 config = { settings = { run = "onSave" } }
