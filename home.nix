@@ -37,7 +37,7 @@ in
   # manage.
   home = {
     homeDirectory = "/home/roya1jr";
-    stateVersion = "23.05";
+    stateVersion = "23.11";
     username = "roya1jr";
 
 
@@ -71,7 +71,6 @@ in
       sshs
       starship
       tealdeer
-      terraform
       traceroute
       tree-sitter
       unzip
