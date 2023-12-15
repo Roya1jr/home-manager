@@ -129,6 +129,7 @@ in
 
       # Build Tools
       libclang
+      ffmpeg_5-full
       gfortran
       git
       lldb
